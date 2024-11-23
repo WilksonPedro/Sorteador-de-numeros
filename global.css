@@ -1,0 +1,53 @@
+:root {
+    /* colors content */
+    --content-primary: #ffffff;
+    --content-secondary: #c7c9cc;
+    --content-tertiary: #d9d9d9;
+    --content-brand: #c58de7;
+    --color-inverse: #030203;
+    /* background */
+    --background-primary: #020202;
+    --background-secondary: #111012;
+    --background-tertiary: #24222e;
+    --background-brand: #c58de7;
+    --background-gray: #3d3d3d;
+    /* accent */
+    --accent-pink: #d586e0;
+    --accent-blue: #91a1fa;
+    --accent-green: #77c0af;
+    --accent-lime: #d1dc97;
+    --accent-red: #e9a9b3;
+    /* gradient */
+    --gradient-border: linear-gradient(var(--accent-green) 0%, var(--accent-lime) 14.84%, var(--accent-red) 32.15%, var(--accent-pink) 65.79%, var(--accent-blue) 84.58%); /* direção padrão: to bottom */
+    --gradient-background: linear-gradient(var(--accent-pink), var(--accent-blue)); /* direção padrão: to bottom */
+    --gradient-content: linear-gradient(var(--content-secondary), var(--background-gray)); /* direção padrão: to bottom */
+
+    /* font */
+    --ff-sora: "Sora", sans-serif;
+    --ff-sora-sm: bold 2rem/130%;
+    --ff-sora-md: 800 2.5rem/130%;
+    --ff-sora-lg: 800 4.5rem/130%;
+    --ff-sora-transform: uppercase;
+
+    --ff-roboto-mono: "Roboto Mono", sans-serif;
+    --overline-roboto: bold 1rem/150%;
+    --roboto-transform: uppercase;
+
+    --ff-roboto-flex: "Roboto Flex", sans-serif;
+    --ff-roboto-f-sm: bold 1rem/150%;
+    --ff-roboto-f-md: bold 1.25rem/150%;
+    --ff-roboto-f-paragraph-sm: 500 0.75rem/150%;
+    --ff-roboto-f-paragraph-md: 500 0.875rem/150%;
+    --ff-roboto-f-paragraph-lg: 500 1rem/150%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
