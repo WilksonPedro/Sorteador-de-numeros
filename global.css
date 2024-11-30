@@ -27,11 +27,11 @@
     --ff-sora-sm: bold 2rem/130%;
     --ff-sora-md: 800 2.5rem/130%;
     --ff-sora-lg: 800 4.5rem/130%;
-    --ff-sora-transform: uppercase;
+    
+    --ff-transform: uppercase;
 
     --ff-roboto-mono: "Roboto Mono", sans-serif;
     --overline-roboto: bold 1rem/150%;
-    --roboto-transform: uppercase;
 
     --ff-roboto-flex: "Roboto Flex", sans-serif;
     --ff-roboto-f-sm: bold 1rem/150%;
@@ -47,7 +47,9 @@
     box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
+body {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 99%) ,url("/assets/Linha.png") no-repeat black;
+    background-size: cover;
+    height: 100vh;
+    padding: 0 2.25rem;
 }
